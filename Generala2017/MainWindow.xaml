@@ -1,0 +1,37 @@
+﻿<Window x:Class="Generala2017.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Generala2017"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <Grid>
+        <TextBox x:Name="dado1TextBox" HorizontalAlignment="Left" Height="40" Margin="10,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextAlignment="Center" FontSize="20" IsReadOnly="True"/>
+        <TextBox x:Name="dado2TextBox" HorizontalAlignment="Left" Height="40" Margin="55,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextAlignment="Center" FontSize="20" IsReadOnly="True"/>
+        <TextBox x:Name="dado3TextBox" HorizontalAlignment="Left" Height="40" Margin="100,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextAlignment="Center" FontSize="20" IsReadOnly="True"/>
+        <TextBox x:Name="dado4TextBox" HorizontalAlignment="Left" Height="40" Margin="145,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextAlignment="Center" FontSize="20" IsReadOnly="True"/>
+        <TextBox x:Name="dado5TextBox" HorizontalAlignment="Left" Height="40" Margin="190,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextAlignment="Center" FontSize="20" IsReadOnly="True"/>
+        <CheckBox x:Name="dado1CheckBox" Content="CheckBox" HorizontalAlignment="Left" Height="18" Margin="22,124,0,0" VerticalAlignment="Top" Width="17" Click="dado1CheckBox_Checked" IsEnabled="False"/>
+        <CheckBox x:Name="dado2CheckBox" Content="CheckBox" HorizontalAlignment="Left" Height="18" Margin="66,124,0,0" VerticalAlignment="Top" Width="17" Click="dado2CheckBox_Checked" IsEnabled="False"/>
+        <CheckBox x:Name="dado3CheckBox" Content="CheckBox" HorizontalAlignment="Left" Height="18" Margin="112,124,0,0" VerticalAlignment="Top" Width="17" RenderTransformOrigin="0.5,0.5" Click="dado3CheckBox_Checked_1" IsEnabled="False"/>
+        <Button x:Name="startButton" Content="Iniciar turno" HorizontalAlignment="Left" Height="28" Margin="790,10,0,0" VerticalAlignment="Top" Width="92" Click="startButton_Click"/>
+        <Button x:Name="tirarDadosButton" Content="Tirar dados" HorizontalAlignment="Left" Height="28" Margin="790,43,0,0" VerticalAlignment="Top" Width="92" Click="tirarDadosButton_Click" IsEnabled="False"/>
+        <CheckBox x:Name="dado4CheckBox" Content="" HorizontalAlignment="Left" Height="18" Margin="154,124,0,0" VerticalAlignment="Top" Width="22" Click="CheckBox_Checked" IsEnabled="False"/>
+        <CheckBox x:Name="dado5CheckBox" Content="" HorizontalAlignment="Left" Height="18" Margin="199,124,0,0" VerticalAlignment="Top" Width="22" Click="dado5CheckBox_Checked" IsEnabled="False"/>
+        <TextBlock x:Name="tirosTextBox" HorizontalAlignment="Left" Height="73" Margin="10,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247"/>
+        <Button x:Name="anotarButton" Content="Anotar" HorizontalAlignment="Left" Height="28" Margin="790,76,0,0" VerticalAlignment="Top" Width="92" IsEnabled="False" Click="anotarButton_Click"/>
+        <Button x:Name="unoButton" Content="1" HorizontalAlignment="Left" Height="30" Margin="15,236,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="dosButton" Content="2" HorizontalAlignment="Left" Height="30" Margin="100,236,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="tresButton" Content="3" HorizontalAlignment="Left" Height="30" Margin="185,236,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="cuatroButton" Content="4" HorizontalAlignment="Left" Height="30" Margin="270,236,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="cincoButton" Content="5" HorizontalAlignment="Left" Height="30" Margin="355,236,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="seisButton" Content="6" HorizontalAlignment="Left" Height="30" Margin="440,236,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="escaleraButton" Content="Escalera" HorizontalAlignment="Left" Height="30" Margin="15,271,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="fullButton" Content="Full" HorizontalAlignment="Left" Height="30" Margin="100,271,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False" Click="fullButton_Click"/>
+        <Button x:Name="pokerButton" Content="Póker" HorizontalAlignment="Left" Height="30" Margin="185,271,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Button x:Name="generalaButton" Content="Generala" HorizontalAlignment="Left" Height="30" Margin="270,271,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="629,366,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>

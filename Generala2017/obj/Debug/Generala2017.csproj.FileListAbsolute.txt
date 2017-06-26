@@ -1,0 +1,14 @@
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\bin\Debug\Generala2017.exe.config
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\bin\Debug\Generala2017.exe
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\bin\Debug\Generala2017.pdb
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017.csprojResolveAssemblyReference.cache
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\MainWindow.g.cs
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\App.g.cs
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017_MarkupCompile.cache
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017_MarkupCompile.lref
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\MainWindow.baml
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017.g.resources
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017.Properties.Resources.resources
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017.csproj.GenerateResource.Cache
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017.exe
+c:\users\facundo\documents\visual studio 2017\Projects\Generala2017\Generala2017\obj\Debug\Generala2017.pdb
